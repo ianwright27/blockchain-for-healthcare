@@ -1,6 +1,6 @@
 # Blockchain for Healthcare
 
-![Overview](/public/screenshots/overview.png)
+![Overview](/public/screenshots/overview3.png)
 
 ## Overview
 
@@ -34,24 +34,28 @@ Make sure you have the following installed:
 
 ### Installation
 
-```bash
 1. **Clone the repository**:
 
+```bash
    git clone https://github.com/your-username/blockchain-for-healthcare.git
    cd blockchain-for-healthcare
+```
 
 2. **Install dependencies**:
 
+```bash
    npm install
+```
 
 3. **Start the development server**:
 
+```bash
    npm start
 ```
 
 ### Deploying Smart Contract
 
-The smart contract, written in Solidity, can be found in `[specific_path]`. You can add new features and deploy it yourself using Foundry, Hardhat, Remix, or any tool you find fit.
+The smart contract, written in Solidity, can be found in `/src/contracts/HealthcareDapp.sol`. You can add new features and deploy it yourself using Foundry, Hardhat, Remix, or any tool you find fit.
 
 ## Environment Variables
 
@@ -64,17 +68,14 @@ REACT_APP_INFURA_API_KEY=your_infura_api_key
 
 ## Usage
 
-```bash
-- **Patient Registration**: Authorized healthcare providers can create and store patient records through the app.
-- **Data Access**: Patients and providers can securely retrieve medical records, ensuring transparency and data accuracy.
+- **Patient Registration**: Authorized healthcare providers can create and store patient records through the dApp.
+- **Fectching Records**: Patients and providers can securely retrieve medical records, ensuring transparency and data accuracy.
 - **Healthcare Provider Authorization**: Only healthcare providers approved by the contract owner can perform certain actions.
-```
 
 ## Contributing
 
 Contributions are welcome! Feel free to explore the code, suggest enhancements, or add new features. You can deploy the smart contract yourself using Foundry, Hardhat, Remix, or any suitable tool.
 
-```bash
 1. **Fork the repository**
 2. **Create a branch**:
 
@@ -89,6 +90,5 @@ Contributions are welcome! Feel free to explore the code, suggest enhancements, 
    git push origin feature/YourFeature
 
 5. **Open a Pull Request**
-```
 
 ## Happy Hacking ! ! ! Bye...

@@ -109,13 +109,17 @@ const Healthcare = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Hospital dApp</h1>
+      <h1 className="title">Healthcare dApp</h1>
       {account && (
         <p className="account-info">
-          Connected account: {truncateStr(account || "", 12)}
+          Connected Account: <b>{truncateStr(account || "", 12)}</b>
         </p>
       )}
-      {isOwner && <p className="owner-info">[You are the contract owner]</p>}
+      {isOwner && (
+        <p className="owner-info">
+          <i>[Contract Owner]</i>
+        </p>
+      )}
 
       <div className="form-section">
         <h3>Fetch Patient Records</h3>
@@ -133,7 +137,7 @@ const Healthcare = () => {
 
       {patientRecords.length !== 0 && (
         <div className="records-section">
-          <div className="records">
+          <div className="record-card">
             <h2>Records</h2>
             {patientRecords.map((record, index) => (
               <div key={index}>

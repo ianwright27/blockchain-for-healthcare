@@ -11,14 +11,14 @@
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #4caf50;
+  color: #1859dd;
 }
 
 .account-info,
 .owner-info {
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #333;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .action-button {
-  background-color: #4caf50;
+  background-color: #1778d8;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -51,7 +51,7 @@
 }
 
 .action-button:hover {
-  background-color: #45a049;
+  background-color: #11579e;
 }
 
 .records-section {
@@ -71,5 +71,5 @@
 }
 
 .record-card p strong {
-  color: #4caf50;
+  color: #1f41ad;
 }
